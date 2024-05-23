@@ -10,4 +10,4 @@ ENV STUDENT_ID=2022311890
 
 WORKDIR /oss_week11
 
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["--port=80", "python", "main.py"]
